@@ -6,6 +6,7 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:background="?attr/colorPrimary"
     android:gravity="bottom"
+
     >
 
 
@@ -14,8 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@mipmap/ninto"
+        android:src="@drawable/drawericon"
         android:layout_gravity="bottom"
+
         android:padding="@dimen/navigation_icon_padding"
         />
 
@@ -26,10 +28,12 @@
         android:id="@+id/textView"
         android:textAppearance="?android:textAppearanceMedium"
         android:layout_gravity="bottom"
+
         android:layout_marginLeft="16dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:textAppearance="?android:textAppearanceMedium"
         android:text="nintoantok@gmail.com"
         android:id="@+id/textView1"
