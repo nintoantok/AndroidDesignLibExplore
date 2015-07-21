@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/navigation_menu_group"
+
+        android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/navigation_item1"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:checked="true"
+        android:title="FAB"/>
+    <item
+        android:id="@+id/navigation_item2"
+        android:title="EditTextLayOut"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        />
+
+    <item
+        android:id="@+id/navigation_item3"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:title="CoordinatorLayOut"/>
+
+    <item
+        android:id="@+id/navigation_item4"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:title="TabLayOut"/>
+    <item
+        android:id="@+id/navigation_subheading"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:title="Sub Heading">
+        <menu>
+            <item android:id="@+id/flat_button"
+                android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+                android:title="Flatbutton"/>
+            <item android:id="@+id/raised_button"
+                android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+                android:title="Raised button"/>
+            <item android:id="@+id/action_button"
+                android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+                android:title="Action Button"/>
+        </menu>
+    </item>
+    </group>
+
+</menu>

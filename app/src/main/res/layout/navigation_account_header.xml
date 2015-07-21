@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="192dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="?attr/colorPrimary"
+    android:gravity="bottom"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ninto"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/navigation_icon_padding"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ninto Anto K"
+        android:id="@+id/textView"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="nintoantok@gmail.com"
+        android:id="@+id/textView1"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        />
+
+</LinearLayout>
